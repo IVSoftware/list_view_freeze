@@ -2,7 +2,7 @@ As others have mentioned, there is no bug here as shown in this sequence of sele
 
 ![screenshot1](https://github.com/IVSoftware/list_view_freeze/blob/master/list_view_freeze/Screenshots/ss1.png)
 
-If you don't want the User to be selecting things during some arbitrary task, why not just set `ListView.Enabled` to `false`  while you perform the work? In the testcode referenced below, I made an all-in-one when the checkbox changes that sets the `SelectionIndices` collection to '2' as in your post;
+If you don't want the User to be selecting things during some arbitrary task, why not just set `ListView.Enabled` to `false`  while you perform the work? In the testcode referenced below, I made an all-in-one for when the checkbox changes that sets the `SelectionIndices` collection to '2' as in your post;
 
 ![screenshot1](https://github.com/IVSoftware/list_view_freeze/blob/master/list_view_freeze/Screenshots/ss2.png)
 
