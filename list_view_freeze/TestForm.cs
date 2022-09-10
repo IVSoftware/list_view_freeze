@@ -16,7 +16,8 @@ namespace list_view_freeze
 
             listView.SelectedIndexChanged += (sender, e) =>
             {
-                richTextBox.AppendLine(DateTime.Now);
+                richTextBox.AppendLine(
+                    $"{DateTime.Now} : [{string.Join(", ", listView.SelectedIndices.Cast<int>())}]" );
                 var sel =
                     listView
                     .SelectedItems
